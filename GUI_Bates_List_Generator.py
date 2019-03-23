@@ -12,7 +12,7 @@ class App:
         # create a Text widget
         self.txt = Text(self.frame, borderwidth=3, relief="sunken")
         self.txt.config(font=("consolas", 12), undo=True, wrap='word', width=25)
-        self.txt.grid(row=0, column=0, padx=2, pady=2, rowspan=1, ipadx=0, ipady=0 ) 
+        self.txt.grid(row=0, column=0, padx=2, pady=2, rowspan=1, ipadx=0, ipady=0 )
 
         # create a Scrollbar and associate it with txt
         scrollb = Scrollbar(self.frame, command=self.txt.yview)
